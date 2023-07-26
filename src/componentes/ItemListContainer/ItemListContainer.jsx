@@ -42,6 +42,7 @@ const ItemListContainer = ({ greeting }) => {
         Todos nuestros productos
       </h2>
       {loading ? <p>Loading...</p> : <ItemList productos={productos} />}
+      
     </>
   );
 };
