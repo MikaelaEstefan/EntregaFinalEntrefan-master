@@ -23,7 +23,7 @@ const ItemDetail = ({ id, nombre, img, category, description, precio, stock }) =
     return (
         <article className='contenedorItem'>
             <header>
-                <h2>Nombre: {nombre} </h2>
+                <h2> {nombre} </h2>
             </header>
             <picture>
                 <img src={img} alt={nombre} />
