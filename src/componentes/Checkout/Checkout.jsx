@@ -80,7 +80,7 @@ const Checkout = () => {
 
     return (
         <div>
-            <h2>Checkout</h2>
+            <h2 className="h2">Checkout</h2>
             <form onSubmit={manejadorFormulario} className="formulario">
                 {carrito.map(producto => (
                     <div key={producto.id}>
@@ -122,7 +122,7 @@ const Checkout = () => {
                     error && <p style={{ color: "red" }}> {error} </p>
                 }
 
-                <button type="submit"> Finalizar Compra </button>
+                <button type="submit" className="clear-button"> Finalizar Compra </button>
             </form>
             {
                 orderId && (
