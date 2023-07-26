@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 const CartWidget = () => {
   const { cantidadTotal} = useContext(CarritoContext)
   
-  const carrito = "CartWidget.png"
+  const carrito = "cart-icon.png"
 
   return (
 
